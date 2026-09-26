@@ -3,7 +3,7 @@
 This repository documents my intensive ten week course in CodePath's Intermediate Cybersecurity. It consists of both individual Labs & projects and evaluates my skills of navigating through Azure Virtual machines, Wireshark, real world scenarios, and a final Capstone Project.
 
 ## Course Objectives
-- For units 1-7, a Cybersecurity challenge is assigned to each student as an individual project.
+- For units 1-7, a Cybersecurity challenge is assigned to each student as an individual lab/project.
 - For units 8-10, students will be divided into teams of 3-8 students to work on a Capstone Project. 
 
 ## Skills
