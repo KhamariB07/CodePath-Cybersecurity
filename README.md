@@ -5,3 +5,5 @@ This repository documents my intensive ten week course in CodePath's Intermediat
 ## Course Objectives
 
 ## Course Breakdown 
+### Lab #1: It Wasn't me
+### Project #1:
