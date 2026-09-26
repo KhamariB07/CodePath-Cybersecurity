@@ -6,4 +6,6 @@ This repository documents my intensive ten week course in CodePath's Intermediat
 
 ## Course Breakdown 
 ### Lab #1: It Wasn't me
+An introductory lab to Wireshark that allows the defender to analyze nefarious activity within a Company's Security Operations Center through .pcap files, DHCP text files, and Security logs. 
+
 ### Project #1:
