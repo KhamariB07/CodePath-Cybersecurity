@@ -25,7 +25,7 @@ In this lab, I was tasked to carry out the following scenario: "You’ve been hi
 ## Step 2: Correlate the IP address to the Host Computer
 - Opened the DHCP log through a text editor
 - Identified six events that occurred before 12:50PM
-- Located the event at 12:11:27pm, matched the IP address
+- Located the event at 12:11:27PM, matched the IP address
 - Identified the host device as USER2
   
 <img width="640" height="408" alt="Screenshot 2026-09-25 at 11 30 21 PM" src="https://github.com/user-attachments/assets/b9109e73-d062-454a-9f59-dae9a65f8b32" />
