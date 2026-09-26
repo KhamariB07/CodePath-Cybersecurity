@@ -36,12 +36,10 @@ In this lab, I was tasked to carry out the following scenario: "You’ve been hi
 <img width="653" height="702" alt="Screenshot 2026-09-25 at 11 32 50 PM" src="https://github.com/user-attachments/assets/9d08aada-8b59-4a26-98da-44829966a5f1" />
 
 ## Key Takeaways
-- Learned how to utilize and analyze packets through Wireshark
-- Learned commands such as "smtp" and 'smtp contains "from"'
-- Understood how to correlate a host computer and IP address
-- Demonstrated understanding of security logs
-- This three layer correlation is the standard technique SOC analysts use for insider threat and impersonation investigations.
-
+- Learned how to utilize and analyze packets through Wireshark.
+- Learned commands such as "smtp" and 'smtp contains "from"'.
+- Understood how to correlate a host computer and IP address.
+- Demonstrated understanding of security logs.
 
 
 
