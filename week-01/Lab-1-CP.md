@@ -31,7 +31,9 @@ In this lab, I was tasked to carry out the following scenario: "You’ve been hi
 <img width="640" height="408" alt="Screenshot 2026-09-25 at 11 30 21 PM" src="https://github.com/user-attachments/assets/b9109e73-d062-454a-9f59-dae9a65f8b32" />
 
 ## Step 3: Analyze the security Log
-- Analyzed the security logs and found the corresponding user from step 2
+- Analyzed the security logs through logon/logoff activity
+- Correlated the user from step 2
+- and found the corresponding user from step 2
   
 <img width="653" height="702" alt="Screenshot 2026-09-25 at 11 32 50 PM" src="https://github.com/user-attachments/assets/9d08aada-8b59-4a26-98da-44829966a5f1" />
 
