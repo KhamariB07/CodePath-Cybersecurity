@@ -4,7 +4,7 @@ This repository documents my intensive ten week course in CodePath's Intermediat
 
 ## Course Objectives
 - For units 1-7, a Cybersecurity challenge is assigned to each student as an individual project.
-- For units 8-10, students will be divided into teams of 3-8 students to work on a Capstone Project. Groups will showcase their work on demo day during the final week.
+- For units 8-10, students will be divided into teams of 3-8 students to work on a Capstone Project. 
 
 ## Skills
 - Wireshark
