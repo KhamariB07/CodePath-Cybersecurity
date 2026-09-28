@@ -19,12 +19,19 @@ This repository documents my intensive ten week course in CodePath's Intermediat
 
 ## Course Breakdown 
 ### Unit 1 Lab: It Wasn't me
-An introductory lab to Wireshark that allows the defender to analyze nefarious activity within a Company's Security Operations Center through .pcap files, DHCP text files, and Security logs. 
+An introductory lab to Wireshark that allows the defender to analyze nefarious activity within a Company's Security Operations Center through .pcap files, DHCP text files, and Security logs.
+
 ---
 ### Unit 1 Project: Catch Me if You can!
 A malicious actor has sent phishing emails to a company. This task allows the defender (**ME**) to look at some potentially malicious emails and inspect .pcap files to determine which emails are legitimate and which ones are fraudulent.
+
 ---
 ### Unit 2 Lab:
+Tasked to practice using the HIDS (**Host Intrusion Detection System**) Linux Audit Daemon to watch file access and record user commands.
+
+---
 
 ### Unit 2 Project: Let's wget This Bread
 In this project, the goal was to implement File Integrity Monitoring and perform incident response forensics on Linux Audit system through an Azure VM. I configured custom audit rules with unique keys to watch sensitive files, used attack scripts to simulate unauthorized modifications, and leveraged 'ausearch' to trace the affected files.
+
+---
