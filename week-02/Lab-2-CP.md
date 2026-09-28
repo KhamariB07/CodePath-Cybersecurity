@@ -94,6 +94,10 @@ src="https://github.com/user-attachments/assets/f60a479d-3db9-4838-a1f0-0e869cb2
   
 <img width="562" height="341" alt="Screenshot 2026-09-28 at 9 52 35 AM" src="https://github.com/user-attachments/assets/e365510a-7b15-42b6-ba51-d13eba8ec4e8" />
 
+## Key Takeaways
+- Learned how to install Auditd and understood HIDS
+- Learned how to configure files and watch for log activity
+- Learned from any Permission denied errors
 
 
 
