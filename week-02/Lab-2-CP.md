@@ -11,7 +11,7 @@ In this lab, I was tasked to Practice using a Host Intrusion Detection System (o
  
 ## Environment Overview
 - #### Networking: Azure Virtual Machine
-- #### Vim text editor
+- #### Text editor: Vim text editor
 
 ## Step 1: Setting Up Audit on My VM
 - Using my Azure VM, I installed Auditd using the following command: 
