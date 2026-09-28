@@ -45,6 +45,40 @@ In this lab, I was tasked to Practice using a Host Intrusion Detection System (o
 
 <img width="565" height="362" alt="Screenshot 2026-09-28 at 8 56 41 AM" src="https://github.com/user-attachments/assets/f042251d-70ea-494c-a4ff-8cbd85e13317" />
 
+## Step 4: Writing a Rule for Audit
+- Starting out I ran the **sudo auditctl -l** command to confirm that Audit Currently has no rules set up
+
+<img width="563" height="42" alt="Screenshot 2026-09-28 at 9 09 24 AM" src="https://github.com/user-attachments/assets/dc002515-b5f0-4da3-8c6f-fdbce48d02e8" />
+
+- Now, I have started editing the file: I ran **vi /etc/audit/rules.d/audit.rules**
+
+<img width="563" height="20" alt="Screenshot 2026-09-28 at 9 26 20 AM" src="https://github.com/user-attachments/assets/08421fd1-63a2-4269-8187-0399487e99c5" />
+
+- This led me to a blank file with [Permission Denied}
+
+<img width="564" height="342" alt="Screenshot 2026-09-28 at 9 24 51 AM" src="https://github.com/user-attachments/assets/0af6be1c-1f03-48fb-9de0-1c91539e868f" />
+
+- To get around this I used the **sudo** command
+- **sudo vi /etc/audit/rules.d/audit.rules**
+
+<img width="556" height="18" alt="Screenshot 2026-09-28 at 9 28 56 AM" src="https://github.com/user-attachments/assets/e54022e1-2a9b-4dde-a8df-dd2e63e8539b" />
+
+- Here I added the rule **-w /home/codepath/unit2_lab.txt -p w -k unit2_lab_changes**
+- **Results**
+<img width="561" height="365" alt="Screenshot 2026-09-28 at 9 29 38 AM" src="https://github.com/user-attachments/assets/2e006fb0-eddd-48ce-b9f6-d4f3dfe42916" />
+
+- Ran **:wq** o exit and save the file
+
+<img width="559" height="337" alt="Screenshot 2026-09-28 at 9 34 52 AM" 
+src="https://github.com/user-attachments/assets/f60a479d-3db9-4838-a1f0-0e869cb2ab61" />
+
+- Ran the **sudo systemctl restart auditd** command to restart Audit so that my file changes are taken into action
+<img width="560" height="29" alt="Screenshot 2026-09-28 at 9 39 06 AM" src="https://github.com/user-attachments/assets/dbe89411-192a-4f96-a3a8-e9e3ef42e239" />
+
+
+
+
+
 
 
 
