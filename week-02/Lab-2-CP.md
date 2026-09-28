@@ -30,5 +30,21 @@ In this lab, I was tasked to Practice using a Host Intrusion Detection System (o
 
 <img width="574" height="110" alt="Screenshot 2026-09-28 at 8 43 33 AM" src="https://github.com/user-attachments/assets/b005e0df-14b2-4f99-b980-cd92cd3acecd" />
 
-## Step 3: Used Vim to Create Files
+## Step 3: Used Vim text editor to Create Files
+- To open the file I created, I ran **vi unit2_lab.txt** in the terminal:
+<img width="566" height="32" alt="Screenshot 2026-09-28 at 8 57 02 AM" src="https://github.com/user-attachments/assets/e9493381-d392-49a7-972f-1677051e1338" />
+
+- This later opened the file and allowed me to insert text by pressing **I** on my keyboard
+<img width="560" height="370" alt="Screenshot 2026-09-28 at 8 54 49 AM" src="https://github.com/user-attachments/assets/6c75fada-904c-4d9b-b855-5edf98091ec5" />
+
+- I inserted the following text into my file:
+- **This is my CodePath lab 2 File!**
+<img width="562" height="368" alt="Screenshot 2026-09-28 at 8 56 14 AM" src="https://github.com/user-attachments/assets/6388a922-b5bb-4369-8c1e-5c26073e2f2d" />
+
+- Used the **:wq** command to exit and save the file
+
+<img width="565" height="362" alt="Screenshot 2026-09-28 at 8 56 41 AM" src="https://github.com/user-attachments/assets/f042251d-70ea-494c-a4ff-8cbd85e13317" />
+
+
+
 
