@@ -22,3 +22,13 @@ In this lab, I was tasked to Practice using a Host Intrusion Detection System (o
 (to confirm it successfully ran)
 
 <img width="561" height="339" alt="Screenshot 2026-09-28 at 8 36 38 AM" src="https://github.com/user-attachments/assets/806e4a35-8cae-43b3-ad53-f2ea2271f9c9" />
+
+## Step 2: Create a New File to Monitor File Changes
+- In the ~ directory, I ran the following command to create a new file:
+- #### touch unit2_lab.txt
+- I then followed up with the **ls** command to ensure the file was created:
+
+<img width="574" height="110" alt="Screenshot 2026-09-28 at 8 43 33 AM" src="https://github.com/user-attachments/assets/b005e0df-14b2-4f99-b980-cd92cd3acecd" />
+
+Step 3: Used Vim to Create Files
+
