@@ -23,3 +23,8 @@ An introductory lab to Wireshark that allows the defender to analyze nefarious a
 
 ### Unit 1 Project: Catch Me if You can!
 A malicious actor has sent phishing emails to a company. This task allows the defender to look at some potentially malicious emails and inspect .pcap files to determine which emails are legitimate and which ones are fraudulent.
+
+### Unit 2 Lab:
+
+### Unit 2 Project: Let's wget This Bread
+In this project, the goal was to implement File Integrity Monitoring and perform incident response forensics on Linux Audit system through an Azure VM. I configured custom audit rules with unique keys to watch sensitive files, used attack scripts to simulate unauthorized modifications, and leveraged 'ausearch' to trace the affected files.
