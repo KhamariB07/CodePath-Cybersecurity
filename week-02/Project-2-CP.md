@@ -61,6 +61,13 @@ In this project, I am assigned to write Audit rules to monitor a set of protecte
   - **Attack A (`attack-a`)**: Modified `/home/codepath/project2-main/protected_files/cloudia.txt` (Triggered key: `cloudia_change`)
   - **Attack B (`attack-b`)**: Modified `/home/codepath/project2-main/protected_files/oakley.txt` and `squeaky.txt` (Triggered keys: `oakley_change`, `squeaky_change`)
   - **Attack C (`attack-c`)**: Modified `/home/codepath/project2-main/protected_files/precipitation.csv` (Triggered key: `precipitation_change`)
+ 
+## Key takeaways:
+* **Proactive Monitoring:** Linux auditing allows system administrators to maintain real-time visibility over critical system files and application data.
+
+* **Forensic Attribution:** Utilizing unique keys in audit rules drastically streamlines the forensics process, enabling rapid identification of which specific files were targeted during a security incident.
+
+* **Incident Response Integration:** Correlating logs via `ausearch` and matching them against execution paths (`comm="attack-a"`, etc.) demonstrates how system logs can be leveraged to trace attacks back to their source binaries.
 
 
 
