@@ -24,6 +24,8 @@ An introductory lab to Wireshark that allows the defender to analyze nefarious a
 ### Unit 1 Project: Catch Me if You can!
 A malicious actor has sent phishing emails to a company. This task allows the defender (**ME**) to look at some potentially malicious emails and inspect .pcap files to determine which emails are legitimate and which ones are fraudulent.
 
+---
+
 ### Unit 2 Lab:
 
 ### Unit 2 Project: Let's wget This Bread
