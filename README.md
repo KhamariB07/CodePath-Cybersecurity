@@ -27,7 +27,7 @@ A malicious actor has sent phishing emails to a company. This task allows the de
 
 ---
 ### Unit 2 Lab:
-Tasked to practice using the HIDS (**Host Intrusion Detection System**) Linux Audit Daemon to watch file access and record user commands.
+Tasked to practice using the HIDS (**Host Intrusion Detection System**) Linux Audit Daemon to watch file access and record user commands. This lab included Audit setup on an Azure VM, Vim text editor, and Viewing Event logs.
 
 ---
 
