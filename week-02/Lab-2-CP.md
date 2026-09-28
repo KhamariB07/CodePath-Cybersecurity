@@ -30,5 +30,5 @@ In this lab, I was tasked to Practice using a Host Intrusion Detection System (o
 
 <img width="574" height="110" alt="Screenshot 2026-09-28 at 8 43 33 AM" src="https://github.com/user-attachments/assets/b005e0df-14b2-4f99-b980-cd92cd3acecd" />
 
-Step 3: Used Vim to Create Files
+## Step 3: Used Vim to Create Files
 
