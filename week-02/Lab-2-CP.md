@@ -87,8 +87,11 @@ src="https://github.com/user-attachments/assets/f60a479d-3db9-4838-a1f0-0e869cb2
 <img width="565" height="363" alt="Screenshot 2026-09-28 at 9 49 18 AM" src="https://github.com/user-attachments/assets/01cc06ab-1872-41da-b1a0-0c9cbfa43041" />
 
 - Ran the **sudo ausearch -ts today -k unit2_lab_changes** command to filter the logs with my Key Filter
+
 <img width="566" height="17" alt="Screenshot 2026-09-28 at 9 51 34 AM" src="https://github.com/user-attachments/assets/614848c0-cc96-4932-90c9-5e7ad40d3755" />
+
 - **Successfully filtered the logs using unit2_lab_changes to reveal the exact tool (vim.basic) used to modify the file.**
+  
 <img width="562" height="341" alt="Screenshot 2026-09-28 at 9 52 35 AM" src="https://github.com/user-attachments/assets/e365510a-7b15-42b6-ba51-d13eba8ec4e8" />
 
 
