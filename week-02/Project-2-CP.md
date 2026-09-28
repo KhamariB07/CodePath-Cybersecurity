@@ -8,5 +8,6 @@ In this project, I am assigned to write Audit rules to monitor a set of protecte
 - Understand how file-level audit trails support post-incident forensics and breach attribution.
 
 ## Environment Overview
-- #### Networking: Azure Virtual Machine
+- #### Operating System: Ubuntu Linux (Azure Virtual Machine)
 - #### Text editor: Vim text editor
+- #### Monitoring Tool: Linux Audit Daemon (auditd) & ausearch
