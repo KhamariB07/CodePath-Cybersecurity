@@ -37,3 +37,6 @@ In this project, the goal was to implement File Integrity Monitoring and perform
 ---
 ### Unit 3 Lab:
 In this Unit we dive into the familiar network protocol called **FTP** (**File Transfer Protocol**). With a follow up from Unit 1 & Unit 2, we also continue with network monitoring. For this lab, I get hands-on with an **open-source Snort lab built by CodePath** — running in Docker to detect incoming attacks using some industry-grade intrusion detection systems (**Snort**).
+
+---
+### Unit 3 Project:
