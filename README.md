@@ -26,7 +26,7 @@ An introductory lab to Wireshark that allows the defender to analyze nefarious a
 A malicious actor has sent phishing emails to a company. This task allows the defender (**ME**) to look at some potentially malicious emails and inspect .pcap files to determine which emails are legitimate and which ones are fraudulent.
 
 ---
-### Unit 2 Lab:
+### Unit 2 Lab: Oops!...I Audit Again
 Tasked to practice using the HIDS (**Host Intrusion Detection System**) Linux Audit Daemon to watch file access and record user commands. This lab included Audit setup on an Azure VM, Vim text editor, and Viewing Event logs.
 
 ---
@@ -35,7 +35,7 @@ Tasked to practice using the HIDS (**Host Intrusion Detection System**) Linux Au
 In this project, the goal was to implement File Integrity Monitoring and perform incident response forensics on Linux Audit system through an Azure VM. I configured custom audit rules with unique keys to watch sensitive files, used attack scripts to simulate unauthorized modifications, and leveraged 'ausearch' to trace the affected files.
 
 ---
-### Unit 3 Lab:
+### Unit 3 Lab: That's Snort of a Lot of Rules
 In this Unit we dive into the familiar network protocol called **FTP** (**File Transfer Protocol**). With a follow up from Unit 1 & Unit 2, we also continue with network monitoring. For this lab, I get hands-on with an **open-source Snort lab built by CodePath** — running in Docker to detect incoming attacks using some industry-grade intrusion detection systems (**Snort**).
 
 ---
