@@ -1,6 +1,6 @@
 # Lab 3:  "That's Snort of a Lot of Rules"
 ### Overview
-In this lab, I ran an **Open-Source Snort NIDS (Network Intrusion Detection System)** against captured traffic, learned how a rule is built, and how to write my own rules to catch specific stages of an attack. 
+In this lab, I ran an **Open-Source Snort NIDS (Network Intrusion Detection System)** against captured traffic, learned how a rule is built, and how to write my own rules to catch specific stages of an attack while tuning them to minimize false positives. 
 
 ## Objectives
 - Explain what a signature-based NIDS is and how Snort matches traffic against rules
