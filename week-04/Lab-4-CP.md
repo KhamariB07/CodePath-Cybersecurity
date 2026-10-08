@@ -1,8 +1,8 @@
 # Lab 4: "Monkey in the Middle"
-## Overview
+### Overview
 In this lab, I analyzed HTTPS network traffic using Wireshark and then used mitmproxy to intercept and inspect the same type of traffic through a proxy. The lab demonstrated how HTTPS encrypts communication between a client and server and how a Man-in-the-Middle (MITM) attack can intercept that communication when certificate trust is established.
 
-Objectives
+## Objectives
 - **Analyze network traffic using Wireshark**
 - **Install and configure mitmproxy on your virtual machine**
 - **Analyze network traffic using mitmproxy**
