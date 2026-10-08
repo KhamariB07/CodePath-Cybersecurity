@@ -10,13 +10,11 @@ In this lab, I analyzed HTTPS network traffic using Wireshark and then used mitm
 - **Understand how HTTPS certificate trust enables — and limits — MITM interception**
 
 ## Environment Overview
-Operating System: Ubuntu Linux
-Virtual Machine: cyb102 Ubuntu VM
-Deployment: Azure Labs / Virtual Machine
-Network Analysis Tool: Wireshark
-MITM Proxy: mitmproxy
-Traffic: HTTP and HTTPS
-Tools: Wireshark, mitmproxy, Browser, Terminal
+- Deployment: Azure Labs / Virtual Machine
+- Network Analysis Tool: Wireshark
+- MITM Proxy: mitmproxy
+- Traffic: HTTP and HTTPS
+- Tools: Wireshark, mitmproxy, Browser, Terminal
 
 ## Step 1: Analyze Network Traffic with Wireshark
 - Using my Azure Virtual machine, I ran **sudo wireshark** from the terminal of my graphical interface and selected eth0
