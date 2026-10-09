@@ -1,6 +1,6 @@
 # Lab 4: "DoS DoS DoS DoS DoS DoS DoS DoS DoS DoS DoS"
 ### Overview
-For this project, I ran a type of **DoS** attack named **Slowloris** against the local server on my **Azure VM** and designed rules in **nginx** to mitigate the attack. Using both a **Protected** and **Unprotected** attack, I analyzed and understood the difference in between network traffic and how to observer a **DoS** attack.
+For this project, I executed a Slowloris Denial of Service (DoS) attack against an Nginx web server hosted on an Azure Linux VM. By running both an unprotected and a protected attack scenario, I monitored real-time server traffic and connection behavior using Netdata.
 
 ## Objectives
 - **Use nginx and Slowloris**
