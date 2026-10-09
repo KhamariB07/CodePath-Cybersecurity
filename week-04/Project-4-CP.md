@@ -9,8 +9,6 @@ For this project, I'll be running a type of DoS attack named **Slowloris** again
 - Understand why application-layer DoS attacks require different mitigations than volumetric flood attacks
 
 ## Environment Overview
-- Deployment: Azure Labs / Virtual Machine
-- Network Analysis Tool: Wireshark
-- MITM Proxy: mitmproxy
-- Traffic: HTTP and HTTPS
-- Tools: Wireshark, mitmproxy, Browser, Terminal
+- Operating System: Ubuntu Linux Virtual Machine (hosted on Azure Remote Desktop / CodePath CYB102 environment)
+- Remote Access Protocol: xrdp (XFCE Desktop Environment via Remote Desktop)
+- Web Browser: Mozilla Firefox
