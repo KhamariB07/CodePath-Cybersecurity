@@ -16,13 +16,11 @@ For this project, I'll be running a type of DoS attack named **Slowloris** again
 ## Step 1: Setup & Verification
 - Verified that **nginx** is running in **VM** using **sudo systemctl status nginx**
 - Verified that Slowloris is executable by running **which slowloris-run**
+
+- **Result:** Confirmed nginx.service is active (running) with PID 1070.
+- **Result:** Located executable at /usr/local/bin/slowloris-run.
 <img width="1907" height="1129" alt="Screenshot 2026-10-09 111436" src="https://github.com/user-attachments/assets/48f12405-b41b-4eb3-a918-cc909c17da43" />
-- used to check
-<img width="1586" height="26" alt="Screenshot 2026-10-09 112628" src="https://github.com/user-attachments/assets/88321c44-f13e-468a-b3a9-f26729ade116" />
-- opened firewall to
-<img width="1904" height="1125" alt="Screenshot 2026-10-09 113042" src="https://github.com/user-attachments/assets/092da48a-cff2-4fc4-a068-bc9e3573686f" />
-- metrics
-<img width="1907" height="1123" alt="Screenshot 2026-10-09 113316" src="https://github.com/user-attachments/assets/8a9afe2e-9a90-470a-ae0f-b0112abc9e0c" />
+
 
 ## Step 2: Run Attack 1 (Unprotected)
 - Opened the Netdata real-time monitoring dashboard at **(http://127.0.0.1:19999)** in **Firefox**, focusing on **Network > IPv4 > Sockets > TCP.**
