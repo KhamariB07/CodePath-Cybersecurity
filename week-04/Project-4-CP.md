@@ -4,7 +4,7 @@ For this project, I'll be running a type of DoS attack named **Slowloris** again
 
 ## Objectives
 - Use nginx and Slowloris
- -Configure DoS mitigation rules
+- Configure DoS mitigation rules
 - Analyze .pcap files to determine which server is vulnerable/prepared to mitigate DoS attacks
 - Understand why application-layer DoS attacks require different mitigations than volumetric flood attacks
 
