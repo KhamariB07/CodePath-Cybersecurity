@@ -33,20 +33,14 @@ For this project, I'll be running a type of DoS attack named **Slowloris** again
 <img width="1532" height="346" alt="Screenshot 2026-10-09 114231" src="https://github.com/user-attachments/assets/7b7fedc2-8875-4fc0-8174-a92b6fad9ca3" />
 
 ## Step 3: Configure Nginx Mitigation
-- ran sudo
-<img width="544" height="22" alt="Screenshot 2026-10-09 115219" src="https://github.com/user-attachments/assets/87ed4466-cb77-4d31-a42d-0f0bd89a6024" />
-- **Edited /etc/nginx/nginx.conf to add four critical timeout directives within the http { ... } block:
-**http {**
-   ** ...**
-    # DoS Mitigation Timeouts
-    **client_body_timeout 5s;**
-    **client_header_timeout 5s;**
-    **keepalive_timeout 15s;**
-    **send_timeout 10s;**
-    ...
-}**
+- **Edited /etc/nginx/nginx.conf to add four critical timeout directives within the http { ... } block: (**Image below is what was used to edit etc/nginx/nginx.conf**)
+<img width="432" height="299" alt="Screenshot 2026-10-09 at 7 05 26 PM" src="https://github.com/user-attachments/assets/e2858326-0aa3-42eb-852f-66b20e1f9a7d" />
+- **These were added to Drops requests if the client does not send complete request headers within 5 seconds, limit the wait time for reading the client request body to 5 seconds, set the maximum time an idle keep-alive connection remains open, and close the connection if a client stops accepting responses for more than 10 seconds.**
+
+- Commented out the pre-existing default keepalive_timeout 65; line (# keepalive_timeout 65;) to prevent duplicate directive conflicts.
 <img width="1901" height="1118" alt="Screenshot 2026-10-09 115847" src="https://github.com/user-attachments/assets/16846582-6933-4736-9c8c-7cfce40e80c4" />
-- tested and reloaded
+- Syntax Validation & Service Reload
+- **Result:** nginx: configuration file /etc/nginx/nginx.conf test is successful
 <img width="690" height="71" alt="Screenshot 2026-10-09 121214" src="https://github.com/user-attachments/assets/369c6aeb-7656-49fb-8613-2e632e8ce3bd" />
 
 ## Step 4: Run Attack 2 (Protected)
