@@ -26,4 +26,9 @@ In this lab, I analyzed HTTPS network traffic using Wireshark and then used mitm
 <img width="1710" height="1105" alt="Screenshot 2026-10-08 at 1 08 52 PM" src="https://github.com/user-attachments/assets/917c67af-f6d3-4569-be3c-e8ac2ccce3f7" />
 
 ## Step 2: Analyze Network Traffic with mitmproxy
+- Installed docker on my VM through the terminal using **sudo apt install docker.io**
+- With docker I installed **mitmproxy** to analyze network traffic
+<img width="946" height="548" alt="step2mitm" src="https://github.com/user-attachments/assets/581b107a-d324-4fa9-9601-70b38e9f4566" />
+- **Results**
+<img width="959" height="548" alt="mitmstep2" src="https://github.com/user-attachments/assets/7bef135e-57a3-4021-9a35-a8dce8b068ab" />
 
