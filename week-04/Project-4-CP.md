@@ -14,3 +14,12 @@ For this project, I'll be running a type of DoS attack named **Slowloris** again
 - Web Browser: Mozilla Firefox
 
 ## Step 1: Setup & Verification
+- Check for veri
+<img width="1907" height="1129" alt="Screenshot 2026-10-09 111436" src="https://github.com/user-attachments/assets/48f12405-b41b-4eb3-a918-cc909c17da43" />
+- used to check
+<img width="1586" height="26" alt="Screenshot 2026-10-09 112628" src="https://github.com/user-attachments/assets/88321c44-f13e-468a-b3a9-f26729ade116" />
+- opened firewall to
+<img width="1904" height="1125" alt="Screenshot 2026-10-09 113042" src="https://github.com/user-attachments/assets/092da48a-cff2-4fc4-a068-bc9e3573686f" />
+
+
+
