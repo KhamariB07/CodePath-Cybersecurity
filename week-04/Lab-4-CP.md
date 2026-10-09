@@ -35,3 +35,13 @@ In this lab, I analyzed HTTPS network traffic using Wireshark and then used mitm
 ## Step 3: Configure Network Settings 
 - Configured Firefox to allow a proxy
 <img width="1912" height="1108" alt="Screenshot 2026-10-09 100725" src="https://github.com/user-attachments/assets/274222ef-6656-49c2-b4af-5bd9aa6078b5" />
+- Installed the Linux certificate 
+<img width="1903" height="1131" alt="Screenshot 2026-10-09 101150" src="https://github.com/user-attachments/assets/4a6536d6-9833-4eaa-9268-3ed324e962f0" />
+- Verified the traffic capture with **mitmproxy** after establishing the certificate
+<img width="1908" height="1120" alt="Screenshot 2026-10-09 102341" src="https://github.com/user-attachments/assets/053c9aaf-d055-4ca1-a0be-2f7edfd40e40" />
+
+## Step 4: Capture & analyze with mitmproxy
+
+
+
+
