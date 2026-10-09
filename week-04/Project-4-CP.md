@@ -35,6 +35,7 @@ For this project, I'll be running a type of DoS attack named **Slowloris** again
 ## Step 3: Configure Nginx Mitigation
 - **Edited /etc/nginx/nginx.conf to add four critical timeout directives within the http { ... } block: (**Image below is what was used to edit etc/nginx/nginx.conf**)
 <img width="432" height="299" alt="Screenshot 2026-10-09 at 7 05 26 PM" src="https://github.com/user-attachments/assets/e2858326-0aa3-42eb-852f-66b20e1f9a7d" />
+
 - **These were added to Drops requests if the client does not send complete request headers within 5 seconds, limit the wait time for reading the client request body to 5 seconds, set the maximum time an idle keep-alive connection remains open, and close the connection if a client stops accepting responses for more than 10 seconds.**
 
 - Commented out the pre-existing default keepalive_timeout 65; line (# keepalive_timeout 65;) to prevent duplicate directive conflicts.
