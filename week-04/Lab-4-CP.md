@@ -41,6 +41,11 @@ In this lab, I analyzed HTTPS network traffic using Wireshark and then used mitm
 <img width="1908" height="1120" alt="Screenshot 2026-10-09 102341" src="https://github.com/user-attachments/assets/053c9aaf-d055-4ca1-a0be-2f7edfd40e40" />
 
 ## Step 4: Capture & analyze with mitmproxy
+- Using **mitmproxy**, for my final step I looked through and analyzed specific packets for question
+<img width="1905" height="1142" alt="Screenshot 2026-10-09 103449" src="https://github.com/user-attachments/assets/78cb06ee-add3-40eb-970c-24ed37d41816" />
+
+## Key takeaways
+
 
 
 
