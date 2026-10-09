@@ -24,11 +24,13 @@ For this project, I'll be running a type of DoS attack named **Slowloris** again
 <img width="1907" height="1123" alt="Screenshot 2026-10-09 113316" src="https://github.com/user-attachments/assets/8a9afe2e-9a90-470a-ae0f-b0112abc9e0c" />
 
 ## Step 2: Run Attack 1 (Unprotected)
-- using search
+- Opened the Netdata real-time monitoring dashboard at **(http://127.0.0.1:19999)** in **Firefox**, focusing on **Network > IPv4 > Sockets > TCP.**
 <img width="1552" height="375" alt="Screenshot 2026-10-09 113746" src="https://github.com/user-attachments/assets/074c7e44-4026-4739-8fb9-5a57444b9c23" />
-- ran slowloris attack
+
+- Ran the **Unprotected** Slowloris Attack in the terminal using **slowloris-run 127.0.0.1 -s 500**
 <img width="640" height="24" alt="Screenshot 2026-10-09 114002" src="https://github.com/user-attachments/assets/acdb6f34-a4ff-4199-b945-3763bd55dbe5" />
-- results
+
+- **Results:** Network traffic protocols spiked 
 <img width="1532" height="346" alt="Screenshot 2026-10-09 114231" src="https://github.com/user-attachments/assets/7b7fedc2-8875-4fc0-8174-a92b6fad9ca3" />
 
 ## Step 3: Configure Nginx Mitigation
