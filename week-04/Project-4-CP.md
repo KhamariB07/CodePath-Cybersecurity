@@ -37,6 +37,8 @@ For this project, I'll be running a type of DoS attack named **Slowloris** again
 - added and saved and exited
 <img width="1901" height="1118" alt="Screenshot 2026-10-09 115847" src="https://github.com/user-attachments/assets/16846582-6933-4736-9c8c-7cfce40e80c4" />
 - tested and reloaded
+<img width="690" height="71" alt="Screenshot 2026-10-09 121214" src="https://github.com/user-attachments/assets/369c6aeb-7656-49fb-8613-2e632e8ce3bd" />
+
 
 ## Step 4: Run Attack 2 (Protected)
 
