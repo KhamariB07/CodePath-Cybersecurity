@@ -3,10 +3,10 @@
 For this project, I'll be running a type of DoS attack named **Slowloris** against the local server on my **Azure VM** and design rules in **nginx** to mitigate the attack.
 
 ## Objectives
-- Use nginx and Slowloris
-- Configure DoS mitigation rules
-- Analyze .pcap files to determine which server is vulnerable/prepared to mitigate DoS attacks
-- Understand why application-layer DoS attacks require different mitigations than volumetric flood attacks
+- **Use nginx and Slowloris**
+- **Configure DoS mitigation rules**
+- **Analyze .pcap files to determine which server is vulnerable/prepared to mitigate DoS attacks**
+- **Understand why application-layer DoS attacks require different mitigations than volumetric flood attacks**
 
 ## Environment Overview
 - Operating System: Ubuntu Linux Virtual Machine (hosted on Azure Remote Desktop / CodePath CYB102 environment)
