@@ -49,9 +49,13 @@ For this project, I'll be running a type of DoS attack named **Slowloris** again
 - For the final and last step, I ran **slowloris-run 127.0.0.1 -s 500** (**The protected Slowloris attack**) with the **Netdata dashboard** remaining open to **Network > IPv4 > Sockets > TCP.**
 
 <img width="603" height="259" alt="Screenshot 2026-10-09 121602" src="https://github.com/user-attachments/assets/88979228-af10-4ee5-867c-975b7f0400d2" />
+
 - **Result:** The active socket count remained flat at baseline levels (~0.5k active sockets).
 <img width="1540" height="351" alt="Screenshot 2026-10-09 121446" src="https://github.com/user-attachments/assets/bf03611b-9c10-4855-933d-4f2de2e2dc11" />
 
+## Key Takeaways
+- Rate limiting and connection timeouts work against Slowloris because they enforce resource boundaries the server controls — the defense is in server configuration, not just adding bandwidth.
+- Application-layer attacks are harder to block at the network perimeter because each individual request looks like legitimate HTTP traffic; mitigation requires understanding the protocol, not just the volume.
 
 
 
