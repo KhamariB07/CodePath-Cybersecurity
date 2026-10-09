@@ -12,3 +12,5 @@ For this project, I'll be running a type of DoS attack named **Slowloris** again
 - Operating System: Ubuntu Linux Virtual Machine (hosted on Azure Remote Desktop / CodePath CYB102 environment)
 - Remote Access Protocol: xrdp (XFCE Desktop Environment via Remote Desktop)
 - Web Browser: Mozilla Firefox
+
+## Step 1: Setup & Verification
