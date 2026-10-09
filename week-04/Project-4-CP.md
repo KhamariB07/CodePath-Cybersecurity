@@ -1,4 +1,4 @@
-# Lab 4: "DoS DoS DoS DoS DoS DoS DoS DoS DoS DoS DoS DoS "
+# Lab 4: "DoS DoS DoS DoS DoS DoS DoS DoS DoS DoS DoS"
 ### Overview
 For this project, I'll be running a type of DoS attack named **Slowloris** against the local server on my **Azure VM** and design rules in **nginx** to mitigate the attack.
 
