@@ -41,10 +41,21 @@ In this lab, I analyzed HTTPS network traffic using Wireshark and then used mitm
 <img width="1908" height="1120" alt="Screenshot 2026-10-09 102341" src="https://github.com/user-attachments/assets/053c9aaf-d055-4ca1-a0be-2f7edfd40e40" />
 
 ## Step 4: Capture & analyze with mitmproxy
-- Using **mitmproxy**, for my final step I looked through and analyzed specific packets for question
+- Using **mitmproxy**, for my final step I looked through and analyzed specific packets for analysis:
+* **HTTP Method & URL:** `GET http://detectportal.firefox.com/success.txt`
+* **Request Headers:**
+  * `Host:` `detectportal.firefox.com`
+  * `User-Agent:` `Mozilla/5.0 (X11; Ubuntu; Linux x86_64...)`
+  * `Accept-Encoding:` `gzip, deflate`
+* **Response Status:** `200 OK` (Content-Type: `text/plain`)
+
+Because `mitmproxy` acts as an SSL-terminating intercepting proxy using our trusted CA certificate, all HTTPS request and response payloads were successfully decrypted and displayed in plaintext.
 <img width="1905" height="1142" alt="Screenshot 2026-10-09 103449" src="https://github.com/user-attachments/assets/78cb06ee-add3-40eb-970c-24ed37d41816" />
 
 ## Key takeaways
+- HTTPS confidentiality depends on the certificate trust chain, not just encryption — mitmproxy works because it presents its own certificate, which the browser accepts once you install the CA. That's the attack surface.
+- Real-world MITM scenarios include rogue Wi-Fi hotspots, compromised network equipment, and corporate SSL inspection proxies — the same technique, used offensively or defensively.
+- The fact that you could read and modify "encrypted" traffic shows why certificate pinning and HSTS exist: they're defenses against exactly what you did in this lab.
 
 
 
