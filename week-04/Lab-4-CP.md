@@ -32,3 +32,6 @@ In this lab, I analyzed HTTPS network traffic using Wireshark and then used mitm
 - **Results**
 <img width="959" height="548" alt="mitmstep2" src="https://github.com/user-attachments/assets/7bef135e-57a3-4021-9a35-a8dce8b068ab" />
 
+## Step 3: Configure Network Settings 
+- Configured Firefox to allow a proxy
+<img width="1912" height="1108" alt="Screenshot 2026-10-09 100725" src="https://github.com/user-attachments/assets/274222ef-6656-49c2-b4af-5bd9aa6078b5" />
