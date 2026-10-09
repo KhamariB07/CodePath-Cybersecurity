@@ -14,7 +14,8 @@ For this project, I'll be running a type of DoS attack named **Slowloris** again
 - Web Browser: Mozilla Firefox
 
 ## Step 1: Setup & Verification
-- Check for veri
+- Verified that **nginx** is running in **VM** using **sudo systemctl status nginx**
+- Verified that Slowloris is executable by running **which slowloris-run**
 <img width="1907" height="1129" alt="Screenshot 2026-10-09 111436" src="https://github.com/user-attachments/assets/48f12405-b41b-4eb3-a918-cc909c17da43" />
 - used to check
 <img width="1586" height="26" alt="Screenshot 2026-10-09 112628" src="https://github.com/user-attachments/assets/88321c44-f13e-468a-b3a9-f26729ade116" />
@@ -30,7 +31,7 @@ For this project, I'll be running a type of DoS attack named **Slowloris** again
 - Ran the **Unprotected** Slowloris Attack in the terminal using **slowloris-run 127.0.0.1 -s 500**
 <img width="640" height="24" alt="Screenshot 2026-10-09 114002" src="https://github.com/user-attachments/assets/acdb6f34-a4ff-4199-b945-3763bd55dbe5" />
 
-- **Results:** Network traffic protocols spiked 
+- **Results:** Network traffic protocols spiked dramatically up toward 1,000 active TCP sockets because Nginx held open all incomplete HTTP requests, exhausting connection resources.
 <img width="1532" height="346" alt="Screenshot 2026-10-09 114231" src="https://github.com/user-attachments/assets/7b7fedc2-8875-4fc0-8174-a92b6fad9ca3" />
 
 ## Step 3: Configure Nginx Mitigation
